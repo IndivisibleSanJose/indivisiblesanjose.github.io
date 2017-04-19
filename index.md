@@ -19,3 +19,5 @@ you can join, or you can sign up for email updates by sending a request to indiv
 
 There is also a [Meetup Group](https://www.meetup.com/IndivisibleSanJose/) where upcoming meetings and
 other events will be posted.
+
+Last updated: 2017-04-18 at 18:00
