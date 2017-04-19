@@ -1,1 +1,4 @@
-theme: jekyll-theme-modernist
+---
+# theme: jekyll-theme-modernist
+markdown: kramdown
+title: Indivisible San Jose
