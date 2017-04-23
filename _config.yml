@@ -1,4 +1,10 @@
 ---
 # theme: jekyll-theme-modernist
-markdown: kramdown
 title: Indivisible San Jose
+collections:
+  events:
+    title: Events
+    output: true
+gems:
+- jekyll-textile-converter
+textile_ext: "textile,txtl,tl"
