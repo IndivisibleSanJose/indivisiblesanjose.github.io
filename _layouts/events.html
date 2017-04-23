@@ -1,32 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <!-- link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oleo+Script" -->
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
-  </head>
-  <body>
-
-  <div class="header">
-    <a href="/">
-    <img src="/assets/mainlogo-2048x747.jpg" width="50%" height="auto"
-         alt="Indivisible San Jose" title="Indivisible San Jose" />
-    </a>
-  </div>
-
-<!-- begin navbar -->
-{% include nav.html %}
-<!-- end navbar -->
-
-  <div class="content">
-<!-- begin main content -->
-{% for event in site.events %}
-      <div class="event">
-{{ event }}
-      </div>
-      <hr class="mt-0 mb-2">
+---
+layout: default
+---
+{% assign ordered_eventlist = site.events | sort: 'listing-date' %}
+{% for event in ordered_eventlist reversed %}
+        <div class="event">
+          <h3>{{ event.listing-date | date: "%a, %b %d, %y" }}: <a href="{{ event.url | relative_url }}">{{ event.title }}</h3></a>
+        </div>
 {% endfor %}
-<!-- end main content -->
-    </div>
-  </body>
-</html>

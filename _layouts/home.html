@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <!-- link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oleo+Script" -->
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
-  </head>
-  <body>
-
-  <div class="header">
-    <img src="/assets/mainlogo-2048x747.jpg" width="50%" height="auto"
-         alt="Indivisible San Jose" title="Indivisible San Jose" />
-  </div>
-
-<!-- begin navbar -->
-{% include nav.html %}
-<!-- end navbar -->
-
-  <div class="content">
+---
+layout: default
+---
+    <div class="content">
 <!-- begin main content -->
 {{ content }}
 <!-- end main content -->
     </div>
-  </body>
-</html>
