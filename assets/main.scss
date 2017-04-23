@@ -487,6 +487,7 @@ iframe {
 body {
   padding: 0px;
   margin: 0px;
+  font-family: $base-font-family
 }
 
 .header {
@@ -510,4 +511,21 @@ nav a {
     color: $light;
     font-family: $base-font-family;
     font-weight: bold;
+}
+
+div.moc {
+  border-bottom: 1px solid black;
+}
+
+.moc dl {
+  margin-left: 20px
+}
+
+.moc dl dt {
+  font-size: small;
+  margin-top: 10px;
+}
+
+.moc dl dd {
+  font-weight: bold;
 }

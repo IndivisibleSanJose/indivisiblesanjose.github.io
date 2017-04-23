@@ -5,6 +5,9 @@ collections:
   events:
     title: Events
     output: true
+  mocs:
+    title: Members of Congress
+    output: false
 gems:
 - jekyll-textile-converter
 textile_ext: "textile,txtl,tl"
