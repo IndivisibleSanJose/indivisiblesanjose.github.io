@@ -1,14 +1,11 @@
 ---
 title: Constituent Meeting with Anna Eshoo
-thumb: /assets/meeting-with-anna-eshoo-2017-04-12-1024x768.jpg
+date: 2017-04-12 00:00:00 Z
+picture: "/assets/meeting-with-anna-eshoo-2017-04-12-1024x768.jpg"
 heading: Members of Indivisible San Jose Met with Anna Eshoo on April 12.
-layout: default
-listing-date: 2017-04-12
+layout: event-with-picture
+listing-date: 2017-04-12 00:00:00 Z
 ---
-
-h3. Members of Indivisible San Jose Met with Anna Eshoo on April 12.
-
-!{max-width: 768px;}/assets/meeting-with-anna-eshoo-2017-04-12-1024x768.jpg(Meeting with Anna Eshoo in Palo Alto)!
 
 The meeting started with a warm welcome from Rep Eshoo and staff member Fabiola.
 
