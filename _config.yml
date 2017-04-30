@@ -18,5 +18,5 @@ collections:
     title: Uploads
     output: true
 future: true
-url: https://pastinaco.github.io
-baseurl: "/jekyll-siteleaf-sandbox"
+url: https://www.indivisiblesanjose.org
+baseurl: "/"
