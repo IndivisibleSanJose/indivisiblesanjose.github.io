@@ -18,5 +18,5 @@ collections:
     title: Uploads
     output: true
 future: true
-url: https://www.indivisiblesanjose.org
-baseurl: "/"
+url: http://www.indivisiblesanjose.org
+baseurl: ""
