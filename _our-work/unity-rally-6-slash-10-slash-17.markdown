@@ -3,6 +3,7 @@ title: Unity Rally (6/10/17)
 date: 2017-06-24 14:12:00 -07:00
 position: 2
 Photo: "/uploads/Unity%20Rally%20June%202017.jpg"
+layout: event-with-picture
 ---
 
 Indivisible San Jose signed on as an event cohost of the Unity Rally on June 10, 2017.  We showed up to let our Muslim friends and neighbors know we welcome them in our community. 
